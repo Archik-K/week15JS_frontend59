@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background-color: #ccf32fe5;
+	margin: 10% 33% 0 33%;
+	flex-direction: column;
+	align-items: center;
+	border-style: dashed;
+}
+
+.ul {
+	display: flex;
+	list-style-type: none;
+	width: 490px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	padding: 0 0 0 0;
+}
+li {
+	padding: 10px 0 0 10px;
+}
+
+h5 {
+	width: 490px;
+	padding: 0 0 0 10px;
+}
